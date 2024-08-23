@@ -30,15 +30,23 @@ The following is a list of available shipping connectors in Odoo:
      - Region availability
    * - :doc:`FedEx <fedex>`
      - All
-   * - :doc:`DHL <dhl_credentials>`
+   * - :doc:`DHL Express* <dhl_credentials>`
      - All
    * - :doc:`UPS <ups_credentials>`
      - All
    * - US Postal Service
      - United States of America
    * - :doc:`Sendcloud <sendcloud_shipping>`
+<<<<<<< 17.0
      - :ref:`EU* <inventory/shipping_receiving/sendcloud-eu>`
    * - :doc:`Bpost <bpost>`
+||||||| e82d329a53ec41a7bdfb34e18cdc0201bfba5b06
+     - :ref:`EU* <inventory/shipping_receiving/sendcloud-eu>`
+   * - Bpost
+=======
+     - :ref:`EU** <inventory/shipping_receiving/sendcloud-eu>`
+   * - Bpost
+>>>>>>> 40510ac439abe8926146548233dcbc35b718fd87
      - Belgium
    * - Easypost
      - North America
@@ -51,7 +59,9 @@ The following is a list of available shipping connectors in Odoo:
 
 .. important::
 
-   \* Sendcloud currently supports shipping **from** Austria, Belgium, France, Germany, Italy, the
+   \* Other services from DHL are **not** supported.
+
+   ** Sendcloud currently supports shipping **from** Austria, Belgium, France, Germany, Italy, the
    Netherlands, Spain, and the United Kingdom, and **to** any European country.
 
 Configuration
